@@ -1,26 +1,15 @@
-.header {
-}
-
 .header__inner {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	height: 85px;
 	width: 100%;
-}
-
-.logo {
-}
-
-.header__nav {
+	white-space: nowrap;
 }
 
 .header__nav-list {
 	display: flex;
-	column-gap: 70px;
-}
-
-.header__nav-item {
+	column-gap: min(70px, 3vw);
 }
 
 .header__nav-link {
@@ -34,7 +23,7 @@
 
 .header__actions {
 	display: flex;
-	column-gap: 35px;
+	column-gap: min(35px, 2vw);
 }
 
 .btn {
@@ -55,4 +44,23 @@
 .btn--secondary:hover {
 	background-color: var(--color-white);
 	border-color: var(--color-accent);
+}
+
+@media (max-width: 992px) {
+	.btn {
+		font-size: inherit;
+	}
+}
+
+@media (max-width: 768px) {
+	.header__nav {
+		display: none;
+	}
+
+	.btn--secondary {
+		padding-inline: 30px;
+	}
+}
+
+@media (max-width: 576px) {
 }

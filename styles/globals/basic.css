@@ -28,7 +28,7 @@ a {
 
 button {
 	border: none;
-	font-family: inherit;
+	font: inherit;
 	background-color: transparent;
 }
 
@@ -41,4 +41,17 @@ button {
 .logo {
 	width: 81px;
 	height: 24px;
+	flex-shrink: 0;
+}
+
+@media (max-width: 992px) {
+	body {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
 }
