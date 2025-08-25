@@ -1,2 +1,10 @@
 :root {
+	--color-white: #fff;
+	--color-black: #000;
+	--color-gray: #484848;
+	--color-accent: #01996d;
+	--color-dark-accent: #245852;
+
+	--container-max-width: 1400px;
+	--container-padding-x: 10px;
 }
