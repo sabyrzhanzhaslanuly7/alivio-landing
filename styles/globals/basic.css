@@ -2,7 +2,43 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
+	color: var(--color-black);
+	font-size: 20px;
+	font-weight: 500;
 	font-family: "Lato", sans-serif;
+	background-color: var(--color-white);
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	color: unset;
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	font-family: inherit;
+	background-color: transparent;
+}
+
+.container {
+	max-width: calc(var(--container-max-width) + var(--container-padding-x) * 2);
+	padding-inline: var(--container-padding-x);
+	margin-inline: auto;
+}
+
+.logo {
+	width: 81px;
+	height: 24px;
 }
