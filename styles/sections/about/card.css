@@ -5,6 +5,7 @@
 	flex-direction: column;
 	justify-content: end;
 	align-items: start;
+	margin-inline: auto;
 	row-gap: 60px;
 }
 
@@ -60,4 +61,10 @@
 	object-fit: cover;
 	border-radius: 12px;
 	aspect-ratio: auto 65/82;
+}
+
+@media (max-width: 992px) {
+	.card {
+		row-gap: 30px;
+	}
 }
