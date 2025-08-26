@@ -34,27 +34,21 @@
 }
 
 .product__info {
-	color: var(--co-light-black);
+	color: var(--color-light-accent);
 	font-size: 25px;
 	font-weight: 600;
 }
 
 .product__title {
-	color: var(--co-light-green);
+	color: var(--color-light-accent);
 	font-size: 50px;
 	font-weight: 700;
 }
 
 .product__desc {
-	color: var(--co-light-black);
+	color: var(--color-light-accent);
 	font-size: 20px;
 	font-weight: 400;
-}
-
-.product__content .btn {
-	width: 230px;
-	height: 65px;
-	margin: 20px 0 0 0;
 }
 
 @media (max-width: 992px) {

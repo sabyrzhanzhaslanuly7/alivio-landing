@@ -1,5 +1,5 @@
 .success {
-	background-color: var(--co-dark-green);
+	background-color: var(--color-dark-accent);
 }
 
 .success__wrapper {
@@ -16,32 +16,20 @@
 	max-width: 550px;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: start;
-    align-items: start; */
 	place-items: start;
 	gap: 20px;
 }
 
 .success__title {
-	color: var(--co-white);
+	color: var(--color-white);
 	font-size: 50px;
 	font-weight: 700;
 }
 
 .success__description {
-	color: var(--co-white);
+	color: var(--color-white);
 	font-size: 25px;
 	font-weight: 600;
-}
-
-.success__content .btn {
-	margin: 50px 0 0 0;
-	width: 240px;
-	height: 65px;
-}
-
-.success__content .btn:hover {
-	outline: 2px solid var(--co-white);
 }
 
 .success__content-video {
@@ -64,7 +52,7 @@
 	z-index: 2;
 	width: 72px;
 	height: 73px;
-	fill: var(--co-white);
+	fill: var(--color-white);
 	top: 50%;
 	left: 50%;
 	translate: -50% -50%;
