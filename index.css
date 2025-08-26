@@ -3,7 +3,12 @@
 
 @import url('./styles/sections/header.css');
 @import url('./styles/sections/hero.css');
+
 @import url('./styles/sections/about/about.css');
 @import url('./styles/sections/about/card.css');
+
 @import url('./styles/sections/success.css');
-@import url('./styles/sections/product.css');
+@import url('./styles/sections/pricing.css');
+
+@import url('./styles/sections/product/product.css');
+@import url('./styles/sections/product/person-card.css');

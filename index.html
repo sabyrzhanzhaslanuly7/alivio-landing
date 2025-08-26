@@ -24,7 +24,7 @@
 						<ul class="header__nav-list" aria-label="navigation list">
 							<li class="header__nav-item" aria-label="navigation item">
 								<a
-									href="#"
+									href="#about-id"
 									rel="noopener noreferrer"
 									class="header__nav-link"
 									aria-label="navigation link"
@@ -33,7 +33,7 @@
 							</li>
 							<li class="header__nav-item" aria-label="navigation item">
 								<a
-									href="#"
+									href="#success-id"
 									rel="noopener noreferrer"
 									class="header__nav-link"
 									aria-label="navigation link"
@@ -42,7 +42,7 @@
 							</li>
 							<li class="header__nav-item" aria-label="navigation item">
 								<a
-									href="#"
+									href="#product-id"
 									rel="noopener noreferrer"
 									class="header__nav-link"
 									aria-label="navigation link"
@@ -51,7 +51,7 @@
 							</li>
 							<li class="header__nav-item" aria-label="navigation item">
 								<a
-									href="#"
+									href="#pricing-id"
 									rel="noopener noreferrer"
 									class="header__nav-link"
 									aria-label="navigation link"
@@ -86,7 +86,7 @@
 				</div>
 			</section>
 
-			<section class="about">
+			<section class="about" id="about-id">
 				<div class="container">
 					<div class="about__inner">
 						<header class="about__header">
@@ -161,7 +161,7 @@
 							<p class="success__description">
 								See how well Alivio works in a real customer’s life.
 							</p>
-							<button class="btn">Let's get started</button>
+							<button class="btn btn--secondary">Let's get started</button>
 						</div>
 
 						<div class="success__content-video">
@@ -175,66 +175,79 @@
 							</svg>
 							<div class="success__gradient"></div>
 						</div>
+					</div>
+				</div>
+			</section>
 
-						<section
-							class="product"
-							aria-label="product section"
-							id="product-id"
-						>
-							<div class="container">
-								<div class="product__wrapper">
-									<div class="product__preview">
-										<img
-											src="./assets/images/photo_card.webp"
-											alt="product preview"
-											class="product__preview-img"
-										/>
-									</div>
+			<section class="product" aria-label="product section" id="product-id">
+				<div class="container">
+					<div class="product__wrapper">
+						<div class="product__preview">
+							<img
+								src="./assets/images/photo_card.webp"
+								alt="product preview"
+								class="product__preview-img"
+							/>
+						</div>
 
-									<div class="product__content">
-										<h4 class="product__info">Our product</h4>
-										<h5 class="product__title">
-											You tell us your stress, We make your diary
-										</h5>
-										<p class="product__desc">
-											Everyone experiences it, and in different ways. Let Alivio
-											guide you, in a personalized journal experience, to
-											overcome your stress.
-										</p>
-										<button class="btn">Find Your Way</button>
-									</div>
+						<div class="product__content">
+							<h4 class="product__info">Our product</h4>
+							<h5 class="product__title">
+								You tell us your stress, We make your diary
+							</h5>
+							<p class="product__desc">
+								Everyone experiences it, and in different ways. Let Alivio guide
+								you, in a personalized journal experience, to overcome your
+								stress.
+							</p>
+							<button class="btn btn--secondary">Find Your Way</button>
+						</div>
 
-									<figure class="person-card" aria-label="person card">
-										<h4 class="person-card__title">Customized For</h4>
-										<div class="person-card__preview">
-											<img
-												src="./assets/images/photo_card.webp"
-												alt="preview image"
-												class="person-card__preview-img"
-											/>
-										</div>
-										<h5 class="person-card__name">Mikayla</h5>
-										<blockquote
-											class="person-card__desc"
-											aria-label="description"
-										>
-											<h6 class="person-card__subtitle">
-												Your custom contents
-											</h6>
-											<ul class="person-card__list">
-												<li class="person-card__list-item">
-													Understand Your Stress
-												</li>
-												<li class="person-card__list-item">Anger Management</li>
-											</ul>
-										</blockquote>
-									</figure>
-								</div>
+						<figure class="person-card" aria-label="person card">
+							<h4 class="person-card__title">Customized For</h4>
+							<div class="person-card__preview">
+								<img
+									src="./assets/images/photo_card.webp"
+									alt="preview image"
+									class="person-card__preview-img"
+								/>
 							</div>
-						</section>
+							<h5 class="person-card__name">Mikayla</h5>
+							<blockquote class="person-card__desc" aria-label="description">
+								<h6 class="person-card__subtitle">Your custom contents</h6>
+								<ul class="person-card__list">
+									<li class="person-card__list-item">Understand Your Stress</li>
+									<li class="person-card__list-item">Anger Management</li>
+								</ul>
+							</blockquote>
+						</figure>
 					</div>
 				</div>
 			</section>
 		</main>
+		<footer class="pricing" aria-label="pricing section" id="pricing-id">
+			<div class="container">
+				<div class="pricing__content">
+					<h2 class="pricing__title">Alivio</h2>
+
+					<nav class="pricing__nav" aria-label="navigation">
+						<ul class="pricing__nav-list" aria-label="navigation list">
+							<li class="pricing__nav-item">
+								<a href="#about-id" class="pricing__nav-link">Why Alivio</a>
+							</li>
+							<li class="pricing__nav-item">
+								<a href="#success-id" class="pricing__nav-link">Solutions</a>
+							</li>
+							<li class="pricing__nav-item">
+								<a href="#product-id" class="pricing__nav-link">Community</a>
+							</li>
+							<li class="pricing__nav-item">
+								<a href="#pricing-id" class="pricing__nav-link">Pricing</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
