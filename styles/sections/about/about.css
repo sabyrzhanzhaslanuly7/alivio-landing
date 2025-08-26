@@ -9,7 +9,7 @@
 }
 
 .about__header-main {
-	max-width: 510px;
+	max-width: 500px;
 	display: flex;
 	row-gap: 30px;
 	flex-direction: column;
@@ -30,4 +30,11 @@
 .about__desc {
 	max-width: 670px;
 	line-height: 150%;
+}
+
+.about__cards {
+	display: flex;
+	justify-content: space-between;
+	height: 1140px;
+	margin-top: 70px;
 }
