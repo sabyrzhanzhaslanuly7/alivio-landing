@@ -1,0 +1,33 @@
+.about {
+	padding-block: 160px 60px;
+}
+
+.about__header {
+	display: flex;
+	align-items: end;
+	justify-content: space-between;
+}
+
+.about__header-main {
+	max-width: 510px;
+	display: flex;
+	row-gap: 30px;
+	flex-direction: column;
+}
+
+.about__tag {
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--color-gray);
+}
+
+.about__title {
+	font-size: 50px;
+	line-height: 157%;
+	color: var(--color-accent);
+}
+
+.about__desc {
+	max-width: 670px;
+	line-height: 150%;
+}
