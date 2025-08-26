@@ -82,3 +82,25 @@
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5))
 		center/cover no-repeat;
 }
+
+@media (max-width: 1370px) {
+	.success__wrapper {
+		justify-content: center;
+	}
+	.success__content {
+		text-align: center;
+		place-items: center start;
+	}
+}
+
+@media (max-width: 576px) {
+	.success__wrapper {
+		padding: 150px 0;
+	}
+	.success__title {
+		font-size: 32px;
+	}
+	.success__description {
+		font-size: 20px;
+	}
+}
